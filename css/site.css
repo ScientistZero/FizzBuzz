@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #1d5888;
+    --primary-color: #56161f;
     --secondary-color: #ff993b;
     --dark-color: #292929;
     --white-color: #e7e7e7;
@@ -24,13 +24,13 @@ body {
 }
 
 nav {
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
 
 }
 
 
 footer {
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
 
 }
 

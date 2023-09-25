@@ -6,6 +6,9 @@
 
 }
 
+#btnSubmit{
+    background-color: #56161f;
+}
 .odd{
 font-weight: 100;
 }
@@ -23,6 +26,7 @@ body {
     background-color: #fdefe3;
 }
 
+
 nav {
     background-color: var(--primary-color);
 
@@ -36,6 +40,8 @@ footer {
 
 h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
+    
+    
 }
 .bsicon{
     color: purple;

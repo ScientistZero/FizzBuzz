@@ -1,6 +1,27 @@
+//get values from the user. We need to get the Fizz and the Buzz values.
+function getValues(){
+
+//get user values from the page.
+
+//parse for numbers.
+
+//check they are integers.
+
+//we can call fizzBuzz
+
+//call displayData and write them to the screen.
 
 
+}
 
+
+function fizzBuzz(fizzValue, buzzValue)
+{
+
+}
+
+
+//OLD CODE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //get the values from the page
 //start or controller function
 function getValues() {

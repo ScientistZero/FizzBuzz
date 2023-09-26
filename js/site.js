@@ -1,15 +1,17 @@
-//get values from the user. We need to get the Fizz and the Buzz values.
+    //get values from the user. We need to get the Fizz and the Buzz values.
 function getValues(){
 
-//get user values from the page.
+    //get user values from the page.
+    let fizzValue = document.getElementById("fizzValue").value;
+    let buzzValue = document.getElementById("buzzValue").value;
+    let numbers = [];
+    //parse for numbers.
 
-//parse for numbers.
+    //check they are integers.
 
-//check they are integers.
+    //we can call fizzBuzz
 
-//we can call fizzBuzz
-
-//call displayData and write them to the screen.
+    //call displayData and write them to the screen.
 
 
 }
@@ -18,6 +20,32 @@ function getValues(){
 function fizzBuzz(fizzValue, buzzValue)
 {
 
+    // init the returnArray
+    let returnArray = [];
+
+    //loop from 1 to 100
+
+    //we need to check the current in three steps
+    //check to see if divisible by both 3 and 5
+    //if so push 'FizzBuzz' into array and not the number
+
+    //check to see if divisible by Fizz value (3)
+    //if so push 'Fizz' into array and not the number
+
+    //check to see if divisible by Buzz value (5)
+    //if so push 'Buzz' into array and not the number
+
+    //finally, if none then push the number into the array
+
+    returnArray;
+
+}
+
+function displayData(fbArray){
+
+    //loop over the array and create a tablerow for each item
+
+    //add all the rows to the table
 }
 
 

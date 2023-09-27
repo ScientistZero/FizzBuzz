@@ -156,10 +156,10 @@
     </div>
     <div class="col-lg-4">
         <h6>The Code is structured in three functions</h6>
-            <h5>getValues</h5>
-            <p>getValues is a function that gets values from the user input, validates the input(makes sure they are integers) and calls and displays the fizzbuzz numbers.</p> 
-            <h5>fizzBuzz</h5> The function fizzBuzz is designed to do a loop return array to see if the inputs are divisible by both 3 and 5 or if they are just divisible by 3 or 5 or neither. <br>
-            <h5>DisplayData</h5> The DisplayData function loops over the array and creates a tablerow for each time so that the user can see which number is divisble by 3 or 5.
+            <h5>getValues()</h5>
+            <p>Gets the FIZZ and BUZZ values from the HTML input, which are validated to make sure they're integers. If the input is valid, the fizzBuzz() function is called, which returns its value to the displayData() function to display the values in an HTML table.</p> <br>
+            <h5>fizzBuzz()</h5> <p>Creates an empty array and loops through the numbers 1 to 100. The loop uses a ternary operator to determine whether each number matches the FIZZ and/or BUZZ values. The results are pushed into an array and returned to the getValues() function.</p> <br>
+            <h5>DisplayData()</h5> <p>Creates an HTML table for the return results. Loops through and creates a table row for each item in the returnArray, five items per row.</p>
     </div>
 </div>
         </div>

@@ -1,4 +1,4 @@
-    //get values from the user. We need to get the Fizz and the Buzz values.
+//get values from the user. We need to get the Fizz and the Buzz values.
 function getValues(){
 
     //get user values from the page.
@@ -31,7 +31,7 @@ function fizzBuzz(fizzValue,buzzValue){
     return returnArray;
 }
 
-    //loop over the array and create a tablerow for each item
+//loop over the array and create a tablerow for each item
 function displayData(fbArray){
 
     //get table body element from the page
@@ -51,18 +51,20 @@ function displayData(fbArray){
         let rowCols = tableRow.querySelectorAll("td");
         rowCols[0].classList.add(fbArray[index]);
         rowCols[0].textContent = fbArray[index];
+
         rowCols[1].classList.add(fbArray[index+1]);
         rowCols[1].textContent = fbArray[index+1];
+
         rowCols[2].classList.add(fbArray[index+2]);
         rowCols[2].textContent = fbArray[index+2];
+
         rowCols[3].classList.add(fbArray[index+3]);
         rowCols[3].textContent = fbArray[index+3];
+
         rowCols[4].classList.add(fbArray[index+4]);
         rowCols[4].textContent = fbArray[index+4];
 
         tableBody.appendChild(tableRow);
         
     }
-
-    
 }

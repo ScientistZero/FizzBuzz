@@ -17,37 +17,18 @@ function getValues(){
 
         }else{
     alert("You must enter intgers");
-    
         }
 }
 
-    //do Fizz Buzz
-function fizzBuzz(fizzValue, buzzValue){
+//create using ternary operator
+function fizzBuzz(fizzValue,buzzValue){
     let returnArray = [];
 
-    //loop from 1 to 100
-    for (let i = 1; i <= 100; i++) {
-        
-        //check to see if divisible by both 3 and 5
-        //check to see if divisible by Fizz value (3)
-        //check to see if divisible by Buzz value (5)
-        if (i % fizzValue == 0 && i % buzzValue == 0) {
-            returnArray.push('FizzBuzz');
-
-        } else if (i % fizzValue == 0){
-            returnArray.push('Fizz');
-
-        } else if (i % buzzValue == 0){
-            returnArray.push('Buzz');
-            
-        } else {
-            returnArray.push(i);
-        }
+    for (let i = 1; i <=100; i++) {
+        let value = ((i % fizzValue == 0 ? 'Fizz' : '') + (i % buzzValue == 0 ? 'Buzz' : '') || i)
+         returnArray.push(value);
     }
-
-
     return returnArray;
-
 }
 
     //loop over the array and create a tablerow for each item

@@ -20,7 +20,7 @@ function getValues(){
         }
 }
 
-//create using ternary operator
+//create using ternary operator and for loop to go from 1 to 100
 function fizzBuzz(fizzValue,buzzValue){
     let returnArray = [];
 
